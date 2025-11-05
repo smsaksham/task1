@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+#signup{
+    background: linear-gradient(135deg, rgb(54,148,243) 0%, rgb(134,35,220) 100%);
+}
+
+#card{
+    background: linear-gradient(135deg, rgb(54,148,243) 0%, rgb(134,35,220) 100%);
+    color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 6px 18px rgba(20,20,60,0.15);
+    background-size: 200% 200%;
+}
+#card:hover{
+    transform: scale(1.1);
+    box-shadow: black 2px 4px 3px;
+}
+#main{
+      border-top-left-radius: 50px; /* Gentle curve at the bottom */
+    border-top-right-radius: 50px;
+}
